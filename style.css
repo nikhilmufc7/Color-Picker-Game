@@ -52,6 +52,21 @@ h1 {
 	color: white;
 	background: steelblue;
 }
+footer{
+	color: white;
+	text-align: center;
+	padding-bottom: 0
+	padding-top: 40px;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    font-size: 1.3em;
+}
+footer a{
+	color: red;
+}
 
 button {
 	border: none;
