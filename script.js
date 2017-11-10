@@ -6,6 +6,12 @@ var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
+var easyBtn = document.getElementById("easyBtn");
+var hardBtn = document.getElementById("hardBtn");
+
+easyBtn.addEventListener("click",function(){
+	
+})
 
 resetButton.addEventListener("click", function() {
 	//generate all new colors
