@@ -1,5 +1,4 @@
 var colors = generateRandomColors(6);
-
 var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
@@ -10,8 +9,15 @@ var easyBtn = document.getElementById("easyBtn");
 var hardBtn = document.getElementById("hardBtn");
 
 easyBtn.addEventListener("click",function(){
-	
-})
+	hardBtn.classList.remove("selected");
+	easyBtn.classList.add("selected");
+});
+
+hardBtn.addEventListener("click",function(){
+	hardBtn.classList.add("selected");
+	easyBtn.classList.remove("selected");
+
+});
 
 resetButton.addEventListener("click", function() {
 	//generate all new colors
